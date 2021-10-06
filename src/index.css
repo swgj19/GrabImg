@@ -64,8 +64,6 @@ body {
 	background: url('/az-subtle.png') repeat center,
 		linear-gradient(0deg, rgb(29, 29, 44), rgb(29, 29, 44));
 	color: var(--clr-grey-1);
-	background: linear-gradient(0deg, rgb(29, 29, 44), rgb(29, 29, 44));
-	color: var(--clr-grey-1);
 	line-height: 1.5;
 	font-size: 0.875rem;
 }
