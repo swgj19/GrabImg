@@ -67,6 +67,15 @@ body {
 	line-height: 1.5;
 	font-size: 0.875rem;
 }
+body::-webkit-scrollbar {
+	width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+	background: var(--clr-primary-3);
+}
+body::-webkit-scrollbar-thumb {
+	background: var(--clr-white);
+}
 ul {
 	list-style-type: none;
 }
@@ -145,7 +154,7 @@ Stock Photos
 	justify-content: center;
 	align-items: center;
 	margin-top: 2rem;
-	color: var(--clr-primary-10);
+	color: var(--clr-white);
 }
 .search {
 	padding: 2rem 0 0 0;
